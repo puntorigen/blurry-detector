@@ -1,0 +1,23 @@
+{
+  "name": "blurry-detector",
+  "version": "1.0.0",
+  "description": "A Node.js utility to assess image sharpness using Laplacian variance, complete with a CLI tool.",
+  "main": "index.js",
+  "bin": {
+    "blurry-detector": "./cli.js"
+  },
+  "keywords": [
+    "laplacian",
+    "blurry",
+    "blur",
+    "detect",
+    "image",
+    "cli"
+  ],
+  "author": "Pablo Schaffner",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.4",
+    "yargs": "^17.7.2"
+  }
+}
