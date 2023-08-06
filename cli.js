@@ -24,8 +24,8 @@ const argv = yargs
 const detector = new BlurryDetector(argv.threshold);
 detector.isImageBlurry(argv.imagePath).then(isBlurry => {
     if (isBlurry) {
-        console.log('The provided image is blurred!',isBlurry);
+        console.log('🔍 Given image is blurred!');
     } else {
-        console.log('The provided image seems sharp!');
+        console.log('🔍 Given image seems focused!');
     }
 });

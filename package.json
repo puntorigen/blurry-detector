@@ -1,6 +1,6 @@
 {
   "name": "blurry-detector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Node.js utility to assess image sharpness using Laplacian variance, complete with a CLI tool.",
   "main": "index.js",
   "bin": {
@@ -16,6 +16,10 @@
   ],
   "author": "Pablo Schaffner",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puntorigen/blurry-detector.git"
+  },
   "dependencies": {
     "sharp": "^0.32.4",
     "yargs": "^17.7.2"
